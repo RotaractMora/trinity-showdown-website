@@ -28,7 +28,7 @@ const Index = () => {
   const games = [{
     title: "PUBG MOBILE",
     image: pubgImage,
-    description: "Battle Royale supremacy awaits the last team standing"
+    description: "Survive, strategize, and dominate the battlefield"
   }, {
     title: "COD MOBILE",
     image: codmImage,
