@@ -28,15 +28,15 @@ const Index = () => {
   const games = [{
     title: "PUBG MOBILE",
     image: pubgImage,
-    description: "Survive, strategize, and dominate the battlefield"
+    description: "A tactical battle royale where survival, skill, and strategy decide the last team standing"
   }, {
     title: "COD MOBILE",
     image: codmImage,
-    description: "Fast-paced tactical combat for elite squads"
+    description: "A fast-paced shooter where sharp aim, teamwork, and quick decisions lead to victory"
   }, {
     title: "MOBILE LEGENDS",
     image: mlbbImage,
-    description: "MOBA mastery in 5v5 strategic warfare"
+    description: "A competitive MOBA where teamwork, strategy, and hero mastery define victory"
   }];
   const gameData = {
     pubg: {
@@ -163,7 +163,7 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4 text-center space-y-8">
           <div className="space-y-4 animate-in fade-in slide-in-from-bottom duration-700">
             <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-heading font-black leading-tight text-center">
-              <img src="/logo.png" alt="logo image" className={'w-[300px] h-24 mx-auto'}/>
+              <img src="/logo.svg" alt="logo image" className={'w-[300px] h-24 mx-auto mt-5'}/>
             </h1>
             <p className="text-base sm:text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto px-4">
               The Ultimate Mobile Gaming Tournament
@@ -261,8 +261,7 @@ const Index = () => {
               <Target className="w-16 h-16 text-primary mb-4 mx-auto" />
               <h2 className="text-2xl font-heading font-bold text-primary mb-4 text-center">Our Mission</h2>
               <p className="text-muted-foreground text-center">
-                To create an inclusive platform that celebrates mobile gaming excellence, fostering
-                competitive spirit while building a vibrant community of passionate gamers.
+                To empower young gamers, sharpen their skills, and build a thriving esports community that fosters competition, creativity, and innovation.
               </p>
             </Card>
 
@@ -270,8 +269,7 @@ const Index = () => {
               <Trophy className="w-16 h-16 text-accent mb-4 mx-auto" />
               <h2 className="text-2xl font-heading font-bold text-accent mb-4 text-center">Our Vision</h2>
               <p className="text-muted-foreground text-center">
-                To establish Trinity Showdown as the premier mobile gaming tournament, setting new
-                standards for competitive gaming events in the region.
+                To expand Sri Lanka’s competitive esports scene by providing opportunities for gamers to connect, compete, and grow while promoting teamwork, creativity, and digital innovation.
               </p>
             </Card>
           </div>
@@ -285,12 +283,10 @@ const Index = () => {
               <Card className="p-8 border-primary/20">
                 <Users className="w-16 h-16 text-primary mb-4 mx-auto" />
                 <h3 className="text-2xl font-heading font-bold text-primary mb-4 text-center">
-                  Mora eSports Club
+                  Mora Esports Community
                 </h3>
                 <p className="text-muted-foreground">
-                  Leading the charge in competitive gaming, Mora eSports Club has been at the
-                  forefront of the gaming community, organizing premier tournaments and fostering
-                  talent development in the eSports ecosystem.
+                  Mora Esports is the official gaming community of the University of Moratuwa, bringing together passionate gamers who represent the university in competitive events while fostering skill development and a vibrant gaming community.
                 </p>
               </Card>
 
@@ -300,9 +296,7 @@ const Index = () => {
                   Rotaract Club
                 </h3>
                 <p className="text-muted-foreground">
-                  Committed to youth development and community service, the Rotaract Club brings
-                  organizational excellence and a spirit of collaboration to make Trinity Showdown
-                  a truly remarkable event.
+                  Rotaract Club of the University of Moratuwa brings together motivated students to create impact, lead initiatives, and engage with the community, while fostering collaboration, creativity, and personal growth.
                 </p>
               </Card>
             </div>
@@ -322,7 +316,7 @@ const Index = () => {
                 <div className="flex-1">
                   <h3 className="text-xl font-heading font-bold text-primary mb-2">Registration Phase</h3>
                   <p className="text-muted-foreground mb-2">December 21 - January 04, 2026</p>
-                  <p className="text-muted-foreground">Teams register and submit their rosters for verification</p>
+                  <p className="text-muted-foreground">Gear up. Sign up. Claim your spot in the showdown!</p>
                 </div>
               </div>
               {/* Phase 2: Tournament Day */}
@@ -362,7 +356,7 @@ const Index = () => {
                 COD MOBILE
               </TabsTrigger>
               <TabsTrigger value="mlbb" className="text-sm sm:text-lg font-heading flex-1">
-                ML:BB
+                MLBB
               </TabsTrigger>
             </TabsList>
 
@@ -500,7 +494,7 @@ const Index = () => {
               <li className="flex items-start space-x-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                 <span className="text-muted-foreground">
-                  Players must be 16 years or older (with parental consent for 16-18)
+                  All participants must be undergraduate students from the same university
                 </span>
               </li>
               <li className="flex items-start space-x-3">
@@ -552,38 +546,7 @@ const Index = () => {
             </div>
           </Card>
 
-          <Card className="p-8 border-gold/20 mb-8">
-            <div className="flex items-center space-x-3 mb-6">
-              <FileText className="w-8 h-8 text-gold" />
-              <h2 className="text-2xl font-heading font-bold text-gold">Code of Conduct</h2>
-            </div>
-            <ul className="space-y-4">
-              <li className="flex items-start space-x-3">
-                <Badge className="bg-gold/20 text-gold border-gold/50 flex-shrink-0">1</Badge>
-                <span className="text-muted-foreground">
-                  Treat all participants, organizers, and spectators with respect
-                </span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <Badge className="bg-gold/20 text-gold border-gold/50 flex-shrink-0">2</Badge>
-                <span className="text-muted-foreground">
-                  No toxic behavior, harassment, or hate speech will be tolerated
-                </span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <Badge className="bg-gold/20 text-gold border-gold/50 flex-shrink-0">3</Badge>
-                <span className="text-muted-foreground">
-                  Follow instructions from tournament officials and referees at all times
-                </span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <Badge className="bg-gold/20 text-gold border-gold/50 flex-shrink-0">4</Badge>
-                <span className="text-muted-foreground">
-                  Be punctual for all matches and check-ins
-                </span>
-              </li>
-            </ul>
-          </Card>
+
 
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="p-8 border-primary/20 text-center bg-gradient-primary/10 hover:border-primary transition-all">
@@ -592,7 +555,7 @@ const Index = () => {
                 PUBG MOBILE
               </h3>
               <p className="text-sm text-muted-foreground mb-6">
-                Complete rules and regulations for PUBG tournament
+                PUBG Mobile Tournament Rules & Regulations
               </p>
               <Button variant="default" className="glow-primary w-full">
                 <Download className="mr-2 h-4 w-4" />
@@ -606,7 +569,7 @@ const Index = () => {
                 COD MOBILE
               </h3>
               <p className="text-sm text-muted-foreground mb-6">
-                Complete rules and regulations for COD tournament
+                COD Mobile Tournament Rules & Regulations
               </p>
               <Button variant="default" className="glow-accent w-full">
                 <Download className="mr-2 h-4 w-4" />
@@ -614,13 +577,13 @@ const Index = () => {
               </Button>
             </Card>
 
-            <Card className="p-8 border-gold/20 text-center bg-gold/10 hover:border-gold transition-all">
+            <Card className="p-8 border-gold/20 text-center bg-gradient-accent/10 hover:border-gold transition-all">
               <Download className="w-12 h-12 text-gold mx-auto mb-4" />
               <h3 className="text-xl font-heading font-bold text-gold mb-3">
                 MOBILE LEGENDS
               </h3>
               <p className="text-sm text-muted-foreground mb-6">
-                Complete rules and regulations for MLBB tournament
+                MLBB Tournament Rules & Regulations
               </p>
               <Button variant="default" className="glow-gold w-full">
                 <Download className="mr-2 h-4 w-4" />
@@ -664,62 +627,13 @@ const Index = () => {
             </Card>
           </div>
 
-          <Card className="p-8 border-primary/20 mb-8">
-            <h2 className="text-2xl font-heading font-bold text-gradient-accent mb-6">
-              How to Register
-            </h2>
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
-                  <span className="font-heading font-bold text-primary">1</span>
-                </div>
-                <div>
-                  <h3 className="font-heading font-bold text-primary mb-1">
-                    Prepare Your Team Information
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Gather all team members' in-game IDs, contact numbers, and email addresses
-                  </p>
-                </div>
-              </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-accent/20 border-2 border-accent flex items-center justify-center">
-                  <span className="font-heading font-bold text-accent">2</span>
-                </div>
-                <div>
-                  <h3 className="font-heading font-bold text-accent mb-1">Choose Your Game</h3>
-                  <p className="text-muted-foreground">
-                    Select which tournament(s) you want to participate in (PUBG, CODM, or MLBB)
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gold/20 border-2 border-gold flex items-center justify-center">
-                  <span className="font-heading font-bold text-gold">3</span>
-                </div>
-                <div>
-                  <h3 className="font-heading font-bold text-gold mb-1">
-                    Complete the Registration Form
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Fill out the Google Form with accurate information about your team
-                  </p>
-                </div>
-              </div>
-
-
-            </div>
-          </Card>
 
           <Card className="p-12 border-primary/20 text-center bg-gradient-primary/10" id="register-form">
             <h2 className="text-3xl font-heading font-black text-gradient-accent mb-4">
               Ready to Compete?
             </h2>
-            <p className="text-lg text-muted-foreground mb-8">
-              Click the button below to register your team via Google Form
-            </p>
+
             <GoogleFormRedirect />
           </Card>
         </div>
