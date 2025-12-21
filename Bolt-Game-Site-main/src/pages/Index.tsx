@@ -656,45 +656,51 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="max-w-2xl mx-auto space-y-8">
-              <Card className="p-6 sm:p-8 border-primary/20 w-full max-w-[680px] mx-auto lg:max-w-none">
-                <h2 className="text-xl sm:text-2xl font-heading font-bold text-primary mb-6">
-                  Get In Touch
-                </h2>
-                <div className="space-y-6">
-                  <div className="flex items-start space-x-4">
-                    <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-bold text-primary mb-1">Email</h3>
-                      <a href="mailto:contact@trinityshowdown.com" className="text-muted-foreground hover:text-primary transition-colors">
-                        contact@trinityshowdown.com
+          <div className="max-w-4xl mx-auto space-y-8">
+              <h2 className="text-xl sm:text-2xl font-heading font-bold text-primary mb-6 text-center">
+                Get In Touch
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <Card className="p-6 sm:p-8 border-primary/20">
+                  <div className="text-center mb-4">
+                    <h3 className="text-lg font-heading font-bold text-primary">Nimith Induwara</h3>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3 justify-center">
+                      <Phone className="w-5 h-5 text-primary flex-shrink-0" />
+                      <a href="tel:+94753884411" className="text-muted-foreground hover:text-primary transition-colors">
+                        0753884411
+                      </a>
+                    </div>
+                    <div className="flex items-center space-x-3 justify-center">
+                      <Mail className="w-5 h-5 text-primary flex-shrink-0" />
+                      <a href="mailto:induwaranimith@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                        induwaranimith@gmail.com
                       </a>
                     </div>
                   </div>
+                </Card>
 
-                  <div className="flex items-start space-x-4">
-                    <Phone className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-bold text-accent mb-1">Phone</h3>
-                      <a href="tel:+94123456789" className="text-muted-foreground hover:text-accent transition-colors">
-                        +94 12 345 6789
+                <Card className="p-6 sm:p-8 border-accent/20">
+                  <div className="text-center mb-4">
+                    <h3 className="text-lg font-heading font-bold text-accent">Isiwara Mallawarachchi</h3>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="flex items-center space-x-3 justify-center">
+                      <Phone className="w-5 h-5 text-accent flex-shrink-0" />
+                      <a href="tel:+94078 4626868" className="text-muted-foreground hover:text-accent transition-colors">
+                        078 4626868
+                      </a>
+                    </div>
+                    <div className="flex items-center space-x-3 justify-center">
+                      <Mail className="w-5 h-5 text-accent flex-shrink-0" />
+                      <a href="mailto:isiwaramallawaarachchi@gmail.com" className="text-muted-foreground hover:text-accent transition-colors">
+                        isiwaramallawaarachchi@gmail.com
                       </a>
                     </div>
                   </div>
-
-                  <div className="flex items-start space-x-4">
-                    <MapPin className="w-6 h-6 text-gold flex-shrink-0 mt-1" />
-                    <div>
-                      <h3 className="font-heading font-bold text-gold mb-1">Location</h3>
-                      <p className="text-muted-foreground">
-                        University of Moratuwa
-                        <br />
-                        Katubedda, Sri Lanka
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </Card>
+                </Card>
+              </div>
 
               <Card className="p-6 sm:p-8 border-accent/20 w-full max-w-[680px] mx-auto lg:max-w-none">
                 <h3 className="text-lg sm:text-xl font-heading font-bold text-accent mb-4 text-center">
