@@ -178,7 +178,7 @@ const Index = () => {
               <h2 className="text-xl sm:text-2xl md:text-3xl font-heading font-bold text-primary mb-6">
                 Tournament Begins In
               </h2>
-              <Countdown />
+              <Countdown date={"25"}/>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -607,7 +607,7 @@ const Index = () => {
             <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8">
               Secure your spot in gaming history. Limited slots available!
             </p>
-            <Countdown />
+            <Countdown date={"04"}/>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">

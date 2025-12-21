@@ -5,9 +5,9 @@ interface TimeLeft {
   minutes: number;
   seconds: number;
 }
-const Countdown = () => {
+const Countdown = ({date}) => {
   const targetDate = useMemo(
-    () => new Date("2026-01-26T10:00:00").getTime(),
+    () => new Date(`2026-01-${date}T10:00:00`).getTime(),
     []
   );
   const calculateTimeLeft = useCallback((): TimeLeft => {
