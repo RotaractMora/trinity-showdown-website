@@ -411,9 +411,7 @@ const Index = () => {
                 count: 8
               }].map(item => <div key={item.game} className="bg-background/50 border border-primary/20 rounded-lg p-6">
                       <Users className="w-12 h-12 text-primary mx-auto mb-3" />
-                      <div className="text-2xl font-heading font-black text-primary mb-1">
-                        {item.count} Slots
-                      </div>
+
                       <div className="text-sm text-muted-foreground">{item.game}</div>
                     </div>)}
                 </div>
