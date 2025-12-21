@@ -560,7 +560,7 @@ const Index = () => {
               </p>
               <Button variant="default" className="glow-primary w-full">
                 <Download className="mr-2 h-4 w-4" />
-                Download Rules
+                Download Rule Book
               </Button>
             </Card>
 
@@ -575,7 +575,7 @@ const Index = () => {
               </p>
               <Button variant="default" className="glow-accent w-full">
                 <Download className="mr-2 h-4 w-4" />
-                Download Rules
+                Download Rule Book
               </Button>
             </Card>
 
@@ -590,7 +590,7 @@ const Index = () => {
               </p>
               <Button variant="default" className="glow-gold w-full">
                 <Download className="mr-2 h-4 w-4" />
-                Download Rules
+                Download Rule Book
               </Button>
             </Card>
           </div>
