@@ -628,7 +628,7 @@ const Index = () => {
             <Card className="p-6 border-gold/20 text-center">
               <DollarSign className="w-12 h-12 text-gold mx-auto mb-4" />
               <h3 className="text-lg font-heading font-bold text-gold mb-2">Entry Fee</h3>
-              <p className="text-muted-foreground">Per Team 1000LKR</p>
+              <p className="text-muted-foreground">Per Team 1500LKR</p>
             </Card>
           </div>
 
