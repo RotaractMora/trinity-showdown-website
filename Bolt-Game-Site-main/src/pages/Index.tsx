@@ -293,7 +293,7 @@ const Index = () => {
 
               <Card className="p-8 border-accent/20">
                 {/*<Heart className="w-16 h-16 text-accent mb-4 mx-auto" />*/}
-                <img src="/Rotaract%20Mora%20White.png" alt="Rotaract logo" className={'w-[250px] h-[110px] mx-auto border-0 border-neutral-500 rounded-lg'}/>
+                <img src="/Rotaract%20Mora%20White.png" alt="Rotaract logo" className={'w-[320px] h-[110px] mx-auto border-0 border-neutral-500 rounded-lg'}/>
                 <h3 className="text-2xl font-heading font-bold text-accent mb-4 text-center">
                   Rotaract Club
                 </h3>
