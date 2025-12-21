@@ -17,8 +17,8 @@ import GoogleSheetsTeams from "@/components/GoogleSheetsTeams";
 import { Trophy, Users, Calendar, Target, Heart, Shield, FileText, Download, CheckCircle, AlertCircle, DollarSign, Mail, Phone, MapPin } from "lucide-react";
 import { useState } from "react";
 import heroImage from "@/assets/hero-bg.jpg";
-import pubgImage from "@/assets/pubg-bg.jpg";
-import codmImage from "@/assets/cod-bg.jpg";
+import pubgImage from "@/assets/pubg-bg-min.jpg";
+import codmImage from "@/assets/cod-bg-min.jpg";
 import mlbbImage from "@/assets/mb-bg.jpg";
 // define Team type locally to avoid any
 type Team = { team_name: string; game: string; logo_url?: string };
