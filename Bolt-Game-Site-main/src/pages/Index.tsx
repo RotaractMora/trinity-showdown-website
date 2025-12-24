@@ -711,7 +711,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-foreground mb-1 text-center text-green-500">Rotaract Club</h4>
-                    <img src="/Rotaract%20Mora%20White.png" alt="rotact logo" className={'w-60 h-20 mx-auto'}/>
+                    <img src="/Rotaract%20Mora%20White.png" alt="rotact logo" className={'w-72 h-20 mx-auto'}/>
                   </div>
                 </div>
               </Card>
