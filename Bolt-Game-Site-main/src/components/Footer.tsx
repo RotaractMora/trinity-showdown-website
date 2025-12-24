@@ -113,7 +113,7 @@ const Footer = () => {
 
         <div className="border-t border-primary/20 mt-8 pt-8 text-center text-muted-foreground text-sm">
           <p>
-            © {currentYear} Mora eSports Club & Rotaract Club. All rights reserved.
+            © {currentYear} Mora eSports Club & Rotaract Club of University of Moratuwa. All rights reserved.
             <span 
               onClick={() => navigate('/admin/login')} 
               className="cursor-default opacity-0 hover:opacity-100 transition-opacity"
