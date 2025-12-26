@@ -83,7 +83,7 @@ const Navbar = () => {
               </button>
             ))}
             <button onClick={() => scrollToSection("register-form")}>
-              <Button variant="default" className="ml-2 glow-primary">
+              <Button variant="default" className="ml-2 glow-primary hover:scale-105">
                 Register Now
               </Button>
             </button>
