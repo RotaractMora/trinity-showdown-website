@@ -605,7 +605,7 @@ const Index = () => {
               REGISTER NOW
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8">
-              Secure your spot in gaming history. Limited slots available!
+              Don’t miss out. Register now.
             </p>
             <Countdown date={"04"}/>
           </div>
