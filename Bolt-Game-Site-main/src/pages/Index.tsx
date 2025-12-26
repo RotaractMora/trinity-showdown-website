@@ -196,8 +196,8 @@ const Index = () => {
           </div>
 
           {/* Quick Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mt-12 animate-in fade-in slide-in-from-bottom duration-700 delay-300">
-            <div className="bg-card/50 backdrop-blur-sm border border-primary/20 rounded-lg p-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto mt-12 animate-in fade-in slide-in-from-bottom duration-700 delay-300">
+            <div className="hidden bg-card/50 backdrop-blur-sm border border-primary/20 rounded-lg p-6">
               <Trophy className="w-12 h-12 text-gold mx-auto mb-3" />
               <div className="text-3xl font-heading font-black text-gold">90,000 LKR</div>
               <div className="text-muted-foreground">Total Prize Pool</div>
