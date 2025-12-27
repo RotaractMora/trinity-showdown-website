@@ -186,7 +186,7 @@ const Index = () => {
                         The Ultimate Mobile Gaming Tournament
                     </p>
                     <p className="text-sm sm:text-base md:text-lg text-primary font-bold px-4">
-                        Presented by Mora eSports Club & Rotaract Club
+                        Presented by Mora eSports Club & Rotaract Club of University of Moratuwa
                     </p>
                 </div>
 
@@ -322,7 +322,7 @@ const Index = () => {
                             <img src="/Rotaract%20Mora%20White.png" alt="Rotaract logo"
                                  className={'w-[380px] h-[110px] mx-auto border-0 border-neutral-500 rounded-lg'}/>
                             <h3 className="text-2xl font-heading font-bold text-accent mb-4 text-center">
-                                Rotaract Club
+                                Rotaract Mora
                             </h3>
                             <p className="text-muted-foreground">
                                 Rotaract Club of the University of Moratuwa brings together motivated students to create
@@ -765,8 +765,7 @@ const Index = () => {
                                 <img src="/moraE.png" alt="Mora esports logo" className={'w-28 h-28 mx-auto'}/>
                             </div>
                             <div>
-                                <h4 className="font-bold text-foreground mb-1 lg:mb-7 text-center text-green-500">Rotaract
-                                    Club</h4>
+                                <h4 className="font-bold text-foreground mb-1 lg:mb-7 text-center text-green-500">Rotaract Mora</h4>
                                 <img src="/Rotaract%20Mora%20White.png" alt="rotact logo"
                                      className={'w-72 h-20 mx-auto'}/>
                             </div>
